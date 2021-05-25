@@ -32,6 +32,14 @@ $(document).ready(function () {
         }
     })
 
+    $('.item-carousel').owlCarousel({
+        loop:true,
+        margin:20,
+        items: 1,
+        nav: false,
+        autoplay: true
+    })
+
     let overlay = $('.overlay');
     let menu = $('.menu-bar');
     let list = $('.menu-list');
@@ -62,6 +70,7 @@ $(document).ready(function () {
     })
 
     $('.filter-action').click(function () {
+        $(this).toggleClass('active');
         $(this).next().toggleClass('open');
     })
 
