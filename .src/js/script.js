@@ -1,12 +1,25 @@
 $(document).ready(function () {
-    $('.main-carousel').owlCarousel({
+    var owl = $('.main-carousel');
+    owl.owlCarousel({
         center: true,
         items:2,
         loop:true,
         autoWidth: true,
-        dots: false,
-        nav:true,
-        navText: ["<i class='icon icon-right icon-rotate-180'></i>","<i class='icon icon-right'></i>"]
+        dots: true,
+        nav:false,
+        dotsContainer: '#carousel-custom-dots',
+    })
+
+    $('.owl-dot').click(function () {
+        owl.trigger('to.owl.carousel', [$(this).index(), 300]);
+    });
+
+    $('.customNextBtn').click(function() {
+        owl.trigger('next.owl.carousel');
+    })
+
+    $('.customPrevBtn').click(function() {
+        owl.trigger('prev.owl.carousel');
     })
 
     $('.special-carousel').owlCarousel({
