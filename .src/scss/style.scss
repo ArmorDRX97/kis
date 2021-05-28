@@ -1156,37 +1156,13 @@ p.handelson-title {
     }
     position: relative;
 
-
-    select {
-      border: 1px solid #f2f2f2;
-      border-radius: 10px;
-      padding: 12px 35px 12px 15px;
-      text-transform: uppercase;
-      font-size: rem(13);
-      font-weight: 600;
-      cursor: pointer;
-      margin-right: 20px;
-      background-color: transparent;
-      transition: 0.15s all ease;
-      -webkit-appearance: none;
-      appearance: none;
-
-      &:focus-visible {
-        outline: none;
-      }
-
-      &::-ms-expand {
-        display: none;
-      }
-    }
-
     i {
       font-size: rem(11);
       color: #9e9e9e;
       margin-left: 10px;
       position: absolute;
-      right: 30px;
-      top: 50%;
+      right: 35px;
+      top: 45%;
       transform: translateY(-50%);
     }
 
@@ -1882,6 +1858,78 @@ p.handelson-title {
 
     &:focus {
       background-color: #623f6e;
+    }
+  }
+}
+
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 20px;
+}
+.select {
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  color: #414042;
+  width: 100%;
+  height: 50px;
+}
+.select-styled {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  padding: 12px 40px 12px 15px;
+  text-transform: uppercase;
+  font-size: rem(13);
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 20px;
+  background-color: transparent;
+  transition: 0.15s all ease;
+  -webkit-appearance: none;
+  appearance: none;
+  min-width: 250px;
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &::-ms-expand {
+    display: none;
+  }
+  &.active{
+    background-color: #f2f2f2;
+  }
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color:#fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 #dbdbdb;
+  li {
+    margin: 0;
+    padding: 10px 0;
+    text-indent: 20px;
+    border-bottom: 1px solid darken(#ffffff, 10);
+    &:last-child{
+      border-bottom: none;
+    }
+    &[rel="hide"] {
+      display: none;
+    }
+    &:hover{
+      background-color: #f2f2f2;
     }
   }
 }
