@@ -362,8 +362,20 @@ body.bg-food {
   padding: 50px 0 50px 0;
 }
 
-.lorem p {
-  font-family: 'Lato', sans-serif;
+.lorem p,
+.lorem ul,
+.lorem li,
+.lorem ol,
+.lorem span,
+.lorem div,
+.lorem h1,
+.lorem h2,
+.lorem h3,
+.lorem h4,
+.lorem h5,
+.lorem h6,
+.lorem b {
+  font-family: 'Lato', sans-serif !important;
 }
 
 .top-nav {
@@ -605,7 +617,6 @@ body.bg-food {
 .main .main-carousel .item .box {
   background-position: center;
   background-size: cover;
-  padding: 30px 50px 10px 50px;
   border-radius: 10px;
 }
 
@@ -714,11 +725,6 @@ body.bg-food {
   margin-top: -120px;
   margin-bottom: -40px;
   text-shadow: 4px 4px 1px rgba(58, 2, 89, 0.75);
-}
-
-.owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
-  display: block;
 }
 
 .special-carousel .owl-nav {
@@ -1112,7 +1118,7 @@ p {
 }
 
 p.handelson-title {
-  font-family: 'Handelson-ThreeCYR', sans-serif;
+  font-family: 'Handelson-ThreeCYR', sans-serif !important;
   font-size: 6.25rem;
   line-height: 1;
   margin-bottom: 10px;
@@ -2181,14 +2187,6 @@ p.handelson-title.green {
     display: none;
   }
 
-  .main {
-    display: none;
-  }
-
-  .stock {
-    padding: 0;
-  }
-
   .stock .card .card-body .discount {
     line-height: 1;
   }
@@ -2289,6 +2287,14 @@ p.handelson-title.green {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .main .main-carousel .item {
+    max-width: 720px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid,
@@ -2302,6 +2308,12 @@ p.handelson-title.green {
 }
 
 @media screen and (max-width: 768px) {
+  .main .main-carousel .item {
+    max-width: 540px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .special-carousel .owl-nav {
     display: none;
   }
@@ -2336,6 +2348,11 @@ p.handelson-title.green {
 
   .navbar .navbar-brand img {
     width: 90px;
+  }
+
+  .main {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .stock img {
@@ -2498,6 +2515,27 @@ p.handelson-title.green {
   .navbar-expand-lg > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .main-carousel .item {
+    max-width: 100%;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main .main-carousel .item .box {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 250px;
+  }
+
+  .main .main-carousel .item .box img {
+    width: auto;
+    height: 250px;
   }
 }
 
