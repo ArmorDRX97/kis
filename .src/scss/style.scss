@@ -84,7 +84,7 @@ body.bg-food {
       display: flex;
       align-items: center;
 
-      .mail, .phone {
+      .mail, .phone, span {
         color: $mainColor;
         margin-right: 20px;
         text-decoration: none;

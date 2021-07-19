@@ -416,7 +416,8 @@ body.bg-food {
 }
 
 .top-nav .container .top-left-nav .mail,
-.top-nav .container .top-left-nav .phone {
+.top-nav .container .top-left-nav .phone,
+.top-nav .container .top-left-nav span {
   color: #3e3e3e;
   margin-right: 20px;
   text-decoration: none;
@@ -429,7 +430,8 @@ body.bg-food {
 }
 
 .top-nav .container .top-left-nav .mail i,
-.top-nav .container .top-left-nav .phone i {
+.top-nav .container .top-left-nav .phone i,
+.top-nav .container .top-left-nav span i {
   margin-right: 5px;
   color: #f98d05;
 }
@@ -2187,7 +2189,8 @@ p.handelson-title.green {
 
 @media screen and (max-width: 992px) {
   .top-nav .container .top-left-nav .mail,
-  .top-nav .container .top-left-nav .phone {
+  .top-nav .container .top-left-nav .phone,
+  .top-nav .container .top-left-nav span {
     display: none;
   }
 
