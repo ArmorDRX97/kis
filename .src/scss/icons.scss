@@ -5,124 +5,129 @@
   @return unquote("\"\\#{$str}\"");
 }
 
-$icon-facebook: unicode(ea02);
-$icon-youtube: unicode(ea03);
-$icon-instagram: unicode(ea04);
-$icon-twitter: unicode(ea05);
-$icon-vk: unicode(ea06);
-$icon-dots-menu: unicode(ea07);
-$icon-leaf: unicode(ea08);
-$icon-envelope: unicode(ea09);
-$icon-user: unicode(ea0a);
-$icon-star-half: unicode(ea0b);
-$icon-star-fill: unicode(ea0c);
-$icon-star: unicode(ea0d);
-$icon-shopping-cart: unicode(ea0e);
+$icon-instagram: unicode(ea02);
+$icon-vk: unicode(ea03);
+$icon-twitter: unicode(ea04);
+$icon-down-arrow: unicode(ea05);
+$icon-filter: unicode(ea06);
+$icon-app-store: unicode(ea07);
+$icon-delivery-truck: unicode(ea08);
+$icon-heart: unicode(ea09);
+$icon-heart-active: unicode(ea0a);
+$icon-google-play: unicode(ea0b);
+$icon-left: unicode(ea0c);
+$icon-phone-call: unicode(ea0d);
+$icon-right: unicode(ea0e);
 $icon-search: unicode(ea0f);
-$icon-right: unicode(ea10);
-$icon-phone-call: unicode(ea11);
-$icon-left: unicode(ea12);
-$icon-google-play: unicode(ea13);
-$icon-heart-active: unicode(ea14);
-$icon-heart: unicode(ea15);
-$icon-delivery-truck: unicode(ea16);
-$icon-app-store: unicode(ea17);
-$icon-filter: unicode(ea18);
-$icon-down-arrow: unicode(ea19);
-
-.icon-facebook::before {
-  content: $icon-facebook;
-}
-
-.icon-youtube::before {
-  content: $icon-youtube;
-}
+$icon-shopping-cart: unicode(ea10);
+$icon-star: unicode(ea11);
+$icon-star-fill: unicode(ea12);
+$icon-star-half: unicode(ea13);
+$icon-user: unicode(ea14);
+$icon-envelope: unicode(ea15);
+$icon-leaf: unicode(ea16);
+$icon-dots-menu: unicode(ea17);
+$icon-youtube: unicode(ea18);
+$icon-facebook: unicode(ea19);
+$icon-location: unicode(ea1a);
 
 .icon-instagram::before {
   content: $icon-instagram;
-}
-
-.icon-twitter::before {
-  content: $icon-twitter;
 }
 
 .icon-vk::before {
   content: $icon-vk;
 }
 
-.icon-dots-menu::before {
-  content: $icon-dots-menu;
+.icon-twitter::before {
+  content: $icon-twitter;
 }
 
-.icon-leaf::before {
-  content: $icon-leaf;
-}
-
-.icon-envelope::before {
-  content: $icon-envelope;
-}
-
-.icon-user::before {
-  content: $icon-user;
-}
-
-.icon-star-half::before {
-  content: $icon-star-half;
-}
-
-.icon-star-fill::before {
-  content: $icon-star-fill;
-}
-
-.icon-star::before {
-  content: $icon-star;
-}
-
-.icon-shopping-cart::before {
-  content: $icon-shopping-cart;
-}
-
-.icon-search::before {
-  content: $icon-search;
-}
-
-.icon-right::before {
-  content: $icon-right;
-}
-
-.icon-phone-call::before {
-  content: $icon-phone-call;
-}
-
-.icon-left::before {
-  content: $icon-left;
-}
-
-.icon-google-play::before {
-  content: $icon-google-play;
-}
-
-.icon-heart-active::before {
-  content: $icon-heart-active;
-}
-
-.icon-heart::before {
-  content: $icon-heart;
-}
-
-.icon-delivery-truck::before {
-  content: $icon-delivery-truck;
-}
-
-.icon-app-store::before {
-  content: $icon-app-store;
+.icon-down-arrow::before {
+  content: $icon-down-arrow;
 }
 
 .icon-filter::before {
   content: $icon-filter;
 }
 
-.icon-down-arrow::before {
-  content: $icon-down-arrow;
+.icon-app-store::before {
+  content: $icon-app-store;
+}
+
+.icon-delivery-truck::before {
+  content: $icon-delivery-truck;
+}
+
+.icon-heart::before {
+  content: $icon-heart;
+}
+
+.icon-heart-active::before {
+  content: $icon-heart-active;
+}
+
+.icon-google-play::before {
+  content: $icon-google-play;
+}
+
+.icon-left::before {
+  content: $icon-left;
+}
+
+.icon-phone-call::before {
+  content: $icon-phone-call;
+}
+
+.icon-right::before {
+  content: $icon-right;
+}
+
+.icon-search::before {
+  content: $icon-search;
+}
+
+.icon-shopping-cart::before {
+  content: $icon-shopping-cart;
+}
+
+.icon-star::before {
+  content: $icon-star;
+}
+
+.icon-star-fill::before {
+  content: $icon-star-fill;
+}
+
+.icon-star-half::before {
+  content: $icon-star-half;
+}
+
+.icon-user::before {
+  content: $icon-user;
+}
+
+.icon-envelope::before {
+  content: $icon-envelope;
+}
+
+.icon-leaf::before {
+  content: $icon-leaf;
+}
+
+.icon-dots-menu::before {
+  content: $icon-dots-menu;
+}
+
+.icon-youtube::before {
+  content: $icon-youtube;
+}
+
+.icon-facebook::before {
+  content: $icon-facebook;
+}
+
+.icon-location::before {
+  content: $icon-location;
 }
 

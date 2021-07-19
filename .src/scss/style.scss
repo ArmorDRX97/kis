@@ -227,9 +227,8 @@ body.bg-food {
 }
 
 .main {
-  @media screen and (max-width: $smTableWidth) {
-    padding-left: 15px;
-    padding-right: 15px;
+  @media screen and (max-width: $tableWidth) {
+    display: none;
   }
   position: relative;
 
@@ -546,6 +545,9 @@ body.bg-food {
 }
 
 .stock {
+  @media screen and (max-width: $tableWidth) {
+    padding: 0;
+  }
   img {
     width: 100%;
     height: auto;

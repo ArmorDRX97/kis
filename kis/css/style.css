@@ -222,55 +222,55 @@
 	icons
 -------------------------*/
 
-.icon-facebook::before {
+.icon-instagram::before {
   content: "\ea02";
 }
 
-.icon-youtube::before {
+.icon-vk::before {
   content: "\ea03";
 }
 
-.icon-instagram::before {
+.icon-twitter::before {
   content: "\ea04";
 }
 
-.icon-twitter::before {
+.icon-down-arrow::before {
   content: "\ea05";
 }
 
-.icon-vk::before {
+.icon-filter::before {
   content: "\ea06";
 }
 
-.icon-dots-menu::before {
+.icon-app-store::before {
   content: "\ea07";
 }
 
-.icon-leaf::before {
+.icon-delivery-truck::before {
   content: "\ea08";
 }
 
-.icon-envelope::before {
+.icon-heart::before {
   content: "\ea09";
 }
 
-.icon-user::before {
+.icon-heart-active::before {
   content: "\ea0a";
 }
 
-.icon-star-half::before {
+.icon-google-play::before {
   content: "\ea0b";
 }
 
-.icon-star-fill::before {
+.icon-left::before {
   content: "\ea0c";
 }
 
-.icon-star::before {
+.icon-phone-call::before {
   content: "\ea0d";
 }
 
-.icon-shopping-cart::before {
+.icon-right::before {
   content: "\ea0e";
 }
 
@@ -278,44 +278,48 @@
   content: "\ea0f";
 }
 
-.icon-right::before {
+.icon-shopping-cart::before {
   content: "\ea10";
 }
 
-.icon-phone-call::before {
+.icon-star::before {
   content: "\ea11";
 }
 
-.icon-left::before {
+.icon-star-fill::before {
   content: "\ea12";
 }
 
-.icon-google-play::before {
+.icon-star-half::before {
   content: "\ea13";
 }
 
-.icon-heart-active::before {
+.icon-user::before {
   content: "\ea14";
 }
 
-.icon-heart::before {
+.icon-envelope::before {
   content: "\ea15";
 }
 
-.icon-delivery-truck::before {
+.icon-leaf::before {
   content: "\ea16";
 }
 
-.icon-app-store::before {
+.icon-dots-menu::before {
   content: "\ea17";
 }
 
-.icon-filter::before {
+.icon-youtube::before {
   content: "\ea18";
 }
 
-.icon-down-arrow::before {
+.icon-facebook::before {
   content: "\ea19";
+}
+
+.icon-location::before {
+  content: "\ea1a";
 }
 
 html,
@@ -2308,6 +2312,10 @@ p.handelson-title.green {
 }
 
 @media screen and (max-width: 768px) {
+  .main {
+    display: none;
+  }
+
   .main .main-carousel .item {
     max-width: 540px;
     padding-left: 15px;
@@ -2316,6 +2324,10 @@ p.handelson-title.green {
 
   .special-carousel .owl-nav {
     display: none;
+  }
+
+  .stock {
+    padding: 0;
   }
 
   .logo-banner {
@@ -2348,11 +2360,6 @@ p.handelson-title.green {
 
   .navbar .navbar-brand img {
     width: 90px;
-  }
-
-  .main {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .stock img {
